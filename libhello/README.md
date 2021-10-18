@@ -15,5 +15,5 @@ go install -buildmode=shared -linkshared std
 ## 2. 编译插件
 
 ```bash
-go build -buildmode=c-shared -o libhello 
+go build -buildmode=c-shared -o test/libhello.so 
 ```
