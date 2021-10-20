@@ -15,5 +15,9 @@ go install -buildmode=shared -linkshared std
 ## 2. 编译插件
 
 ```bash
-go build -buildmode=c-shared -o test/libhello.so 
+# linux编译
+make linux
+
+# 编译arm64
+make arm64
 ```

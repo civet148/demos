@@ -1,4 +1,4 @@
-#include "libhello.h"
+#include "../lib/linux/libhello.h"
 #include <stdio.h>
 #include <string.h>
 
